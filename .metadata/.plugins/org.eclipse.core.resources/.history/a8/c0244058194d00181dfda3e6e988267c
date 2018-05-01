@@ -1,0 +1,15 @@
+package teat.java;
+
+import java.util.Scanner;
+
+public class cal {
+
+	public static void main(String[] args) {
+		System.out.println("welcome to calculator");
+		Scanner s=new Scanner(System.in);
+		int n=s.nextInt();
+				
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package teat.java;
+import java.util.Scanner;
+
+public class test1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.print("enter number-");
+		double d=sc.nextDouble();
+		int temp = d,reverse=0.0000;
+		
+	while (temp != 0)
+	{
+		reverse =reverse*10;
+		reverse =reverse+temp%10;
+		temp=temp/10;
+	}
+	if(d==reverse)
+		System.out.println(d+" is plandrom number");
+	else
+		System.out.println(d+" is not plandrom number");
+	}
+
+}

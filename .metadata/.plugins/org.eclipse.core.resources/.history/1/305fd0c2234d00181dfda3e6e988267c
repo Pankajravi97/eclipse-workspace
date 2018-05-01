@@ -1,0 +1,32 @@
+package teat.java;
+
+import java.util.Scanner;
+
+public class cal {
+
+	public static void main(String[] args) {
+		System.out.println("welcome to calculator\n1. add\n2. sub\n3. mul\n4. sub");
+		Scanner s=new Scanner(System.in);
+		int choice=s.nextInt();
+		System.out.println("Enter fist number:-");
+		int n=s.nextInt();
+		System.out.println("Enter second number:-");
+		int m=s.nextInt();
+		switch (choice) {
+		case 1:System.out.println("sum ="+(n+m));
+			break;
+		case 2:System.out.println("sum ="+(n-m));
+			break;
+		case 3:System.out.println("sum ="+(n+m));
+			break;
+		case 4:System.out.println("sum ="+(n+m));
+			break;
+		default:System.out.println("invalid");
+			
+		}
+		
+		
+
+	}
+
+}

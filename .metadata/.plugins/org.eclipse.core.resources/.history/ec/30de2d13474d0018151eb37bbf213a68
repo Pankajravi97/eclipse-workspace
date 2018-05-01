@@ -1,0 +1,22 @@
+package teat.java;
+import java.util.*;
+
+public class Sum {
+	//int x =5;local variable
+	//static int y=6; static varible
+
+	public static void main(String[] args) {
+		System.out.println("enter number");
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int d=0;
+		for(int i=a;i>0;i--) {
+			d=i+i--;
+		}
+		//Sum s =new Sum();
+		//System.out.println(s.x);
+		System.out.println(d+ " ");
+
+	}
+
+}

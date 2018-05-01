@@ -1,0 +1,13 @@
+package teat.java;
+
+import java.util.Scanner;
+
+public class Palin {
+
+	public static void main(String[] args) {
+	StringBuilder s=	new StringBuilder().append(new Scanner(System.in).nextLine());
+	if(s.equals(s.reverse()) System.out.println("Palindrome");	
+	else System.out.println("Not Palindrome");
+	}
+
+}

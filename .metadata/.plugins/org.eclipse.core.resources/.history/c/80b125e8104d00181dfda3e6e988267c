@@ -1,0 +1,13 @@
+package teat.java;
+
+public class bank {
+
+	public static void main(String[] args) {
+		int Balance=5000;
+		System.out.print("1.Withdrawl");
+		System.out.print("2.Deposit");
+		System.out.print("3.Balance Check");
+
+	}
+
+}

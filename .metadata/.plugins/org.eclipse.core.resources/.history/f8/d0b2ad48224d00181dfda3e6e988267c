@@ -1,0 +1,57 @@
+package teat.java;
+
+import java.util.Scanner;
+
+public class cal {
+
+	public static void main(String[] args) {
+		System.out.println("welcome to calculator");
+		System.out.println("1. add");
+		System.out.println("2. sub");
+		System.out.println("3. mul");
+		System.out.println("4. sub");
+		Scanner s=new Scanner(System.in);
+		int choice=s.nextInt();
+		switch (choice) {
+		case 1:
+			
+			System.out.println("Enter fist number:-");
+			int n=s.nextInt();
+			System.out.println("Enter second number:-");
+			int m=s.nextInt();
+			System.out.println("sum ="+(n+m));
+			break;
+		case 2:
+			
+			System.out.println("Enter fist number:-");
+			int n1=s.nextInt();
+			System.out.println("Enter second number:-");
+			int m1=s.nextInt();
+			System.out.println("sum ="+(n1-m1));
+			break;
+		case 3:
+			
+			System.out.println("Enter fist number:-");
+			int n2=s.nextInt();
+			System.out.println("Enter second number:-");
+			int m2=s.nextInt();
+			System.out.println("sum ="+(n2+m2));
+			break;
+		case 4:
+			
+			System.out.println("Enter fist number:-");
+			int n3=s.nextInt();
+			System.out.println("Enter second number:-");
+			int m3=s.nextInt();
+			System.out.println("sum ="+(n3+m3));
+			break;
+			default:
+				System.out.println("invalid option");
+			
+		}
+		
+		
+
+	}
+
+}

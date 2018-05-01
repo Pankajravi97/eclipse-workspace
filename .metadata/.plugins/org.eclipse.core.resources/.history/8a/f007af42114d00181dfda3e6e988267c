@@ -1,0 +1,16 @@
+package teat.java;
+
+import java.util.Scanner;
+
+public class bank {
+
+	public static void main(String[] args) {
+		int Balance=5000;
+		System.out.println("1.Withdrawl");
+		System.out.println("2.Deposit");
+		System.out.println("3.Balance Check");
+		Scanner s=new Scanner(System.in);
+
+	}
+
+}

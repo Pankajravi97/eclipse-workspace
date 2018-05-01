@@ -1,0 +1,54 @@
+package teat.java;
+
+import java.util.Scanner;
+
+public class bank {
+
+	public static void main(String[] args) {
+		int Balance=5000;
+		boolean k=true;
+		while(k) {
+		System.out.println("1.Withdrawl");
+		System.out.println("2.Deposit");
+		System.out.println("3.Balance Check");
+		Scanner s=new Scanner(System.in);
+		int choice=s.nextInt();
+		switch(choice) {
+		case 1:
+			System.out.println("Enter ammount:-");
+			int amount=s.nextInt();
+			if(amount<=5000) {
+				System.out.println("Amount Withdrawl:-"+amount);
+				System.out.println("Remaing Amount:-"+(Balance-amount));
+				
+			}else {
+				System.out.println("insufficient Balance");
+			}break;
+		case 2:
+			System.out.println("Enter amount:-");
+			int amount1=s.nextInt();
+			System.out.println("deposit balance"+amount1);
+			System.out.println("total balance"+(Balance+amount1));
+			break;
+			
+		case 3:
+			System.out.println("Current balance:-"+Balance );
+			break;
+			default:
+				System.out.println("invalid input");  
+			}
+		System.out.println("Do you want to continue:(y/n)");
+		String str=s.next();
+		if(str.equals("y"))
+		{
+			k=true;
+			
+		}else if(str.equals("n")) {
+			k=false;
+		}else {
+			System.out.println("invalid input"); break;}
+		}
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package teat.java;
+
+import java.util.Scanner;
+
+public class cal {
+
+	public static void main(String[] args) {
+		System.out.println("welcome to calculator");
+		System.out.println("a. add");
+		System.out.println("b. sub");
+		System.out.println("c. mul");
+		System.out.println("d. sub");
+		Scanner s=new Scanner(System.in);
+		//int n=s.nextInt();
+		int m=s.nextInt();
+		System.out.println(m);
+				
+
+	}
+
+}
